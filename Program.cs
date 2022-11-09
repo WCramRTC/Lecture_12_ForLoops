@@ -33,7 +33,8 @@ namespace Lecture_12_ForLoops
 
         public static void ForLoopDecrement()
         {
-            for (int i = 10; i >= 0; i++)
+            // Fix this
+            for (int i = 10; i < 0; i++)
             {
                 Console.WriteLine(i);
             }
